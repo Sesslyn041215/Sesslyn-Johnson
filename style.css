@@ -1,10 +1,106 @@
+body{
+	margin:0;
+	padding:0;
+	background:white;
+	display:inline;
+	
+}
+body{
+    background-image:url('plain.webp');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100%;
+}
+nav{
+	width:100%;
+	background:#031214;
+	overflow:auto;
+
+}
+
+ul{
+	padding:0;
+	margin:0 0 0 150px;
+	list-style:none;
+	float:right;
+}
+ul li{
+	float:left;
+	
+}
+
+.logo img{
+	position:absolute;
+	margin-top:15px;
+	margin-left:10px;
+	
+}
+
+nav a{
+	display:block;
+	width:100px;
+	padding:20px 15px;
+	text-decoration:none;
+	font-family:Arial;
+	color:#fc466b;
+	text-align:center;
+	
+}
+
+
+.logo{
+	width: 40px;
+	cursor: pointer;
+	border-radius:50%;
+}
+
 h1{
 	color:purple;
 	font-family:"IM Fell Great Primer";
+	text-align:center;
+	font-size: 50px;
 }
 p{
+	
+	font-size:25px;
+	text-align:center;
+	margin:50px;
 	font-family:"Lato";
+	color:black;
 }
 h2{
+	padding-top:-30px;
+	padding-top:-30px;
    font-family:"IM Fell Great Primer";
+   	font-size: 40px;
+	color:#40266d;
+	text-align:center;
+	margin:50px;
 }
+h4{
+	color:purple;
+	font-family:"IM Fell Great Primer";
+	text-align:center;
+	font-size:40px;
+}
+h3{
+	margin:-20px;
+	font-size: 30px;
+	text-align:center;
+	color:#cf306f;
+}
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+my_family{
+	align-items:center;
+	justify-content:center;
+}
+ol{
+	align-items:center;
+	margin-left:30%;
+	font-size:25px;
+}
+
