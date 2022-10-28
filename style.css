@@ -42,12 +42,9 @@ nav a{
 	padding:20px 15px;
 	text-decoration:none;
 	font-family:Arial;
-	color:#fc466b;
+	color:white;
 	text-align:center;
-	
 }
-
-
 .logo{
 	width: 40px;
 	cursor: pointer;
@@ -55,7 +52,7 @@ nav a{
 }
 
 h1{
-	color:purple;
+	color:#070659;
 	font-family:"IM Fell Great Primer";
 	text-align:center;
 	font-size: 50px;
@@ -87,7 +84,7 @@ h3{
 	margin:-20px;
 	font-size: 30px;
 	text-align:center;
-	color:#cf306f;
+	color:#1b7a33;
 }
 .center{
 	display:block;
@@ -102,5 +99,21 @@ ol{
 	align-items:center;
 	margin-left:30%;
 	font-size:25px;
+}
+li:hover{
+ background-color:#45C4B0;
+ 
+}
+li a:hover{
+ color:black;
+}
+footer nav{
+	background-color:transparent;
+	display:flex;
+}
+footer nav a{
+  color:black;
+  font-size:30px;
+ 
 }
 
